@@ -8,24 +8,3 @@
 					</ul>
 				</section>
 
-
-Hitta vem:
-				<section>
-					<h2>Some quotes</h2>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						The Most Dangerous Project We've Ever Seen
-					</blockquote>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						May be the most dangerous technological project since the internet itself
-					</blockquote>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						Bitcoins will change the world unless governments ban them with harsh penalties
-					</blockquote>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						We make money democratic.
-					</blockquote>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						Money may be the next frontier of the Internet revolution thanks to Bitcoin, a burgeoning new digital currency.
-					</blockquote>
-				</section>
-
