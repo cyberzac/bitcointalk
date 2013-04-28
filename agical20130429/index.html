@@ -106,23 +106,28 @@
 
 	<section>
 	  <h2>Money: Store of value</h2>
-	  <p class="fragment">Stable over time</p>
-	  <p class="fragment">Scarce</p>
-	  <p class="fragment">Should not be declared null and void...</p>
+	  <ul>
+	  <li class="fragment">Stable over time</li>
+	  <li class="fragment">Scarce</li>
+	  <li class="fragment">Should not be declared null and void...</li>
+	  </ul>
 	</section>
 
 	<section>
 	  <section>
 	    <h2>Bitcoin: Store of value</h2>
-	    <p class="fragment">Digital assets never rot</p>
-	    <p class="fragment">Bitcoins are scarce, max 21 million</p>
+	    <ul>
+	    <li class="fragment">Digital assets never rot</li>
+	    <li class="fragment">Bitcoins are scarce, max 21 million</li>
+	    </ul>
 	  </section>
 	  <section>
-	    <p>Currently ~11.1 million</p>
+	    <h2>Currently 11.1 million</h2>
 	    <img src="images/21million.jpg">
 	  </section>
 	  <section>
-	  	    <img src="images/mtgoxalltimelog.png">
+	    <h2>Logarithmic price over time</h2> 
+	    <img src="images/mtgoxalltimelog.png">
 	  </section>
 	</section>
 
@@ -196,7 +201,7 @@
 	  <ul>
 			<li class="fragment">Mine them</li>
 			<li class="fragment">Earn them</li>
-	    <li class="fragment">Buy and sell them, most often at <a href="https://mtgox.com">MtGox</a></li>
+	    <li class="fragment">Buy and sell them, most often at <a href="http://bitcoin.clarkmoody.com">MtGox</a></li>
 	    <li class="fragment">You can also buy and sell Bitcoins in <a href="https://kapiton.se">Sweden</a></li>
 	  </ul>
 	</section>
@@ -204,11 +209,12 @@
 	<section>
 		<h2>Please install a wallet</h2>
 		<ul>
-			<li class="fragment">Satoshi client at bitcoin.org</li>
-			<li class="fragment">MultiBit at multibit.org</li>
-			<li class="fragment">Blockchain or Androind Wallet on Android</li>
-			<li class="fragment">Blockchain on iPhone</li>
+		  <li>Satoshi client at bitcoin.org</li>
+		  <li>MultiBit at multibit.org</li>
+		  <li>Blockchain or Androind Wallet on Android</li>
+		  <li>Blockchain on iPhone</li>
 		</ul>
+		<br/><br/>
 		<p>Remember your password!</p>
 	</section>
 
@@ -332,6 +338,13 @@
 	</section>
 	
 	<section>
+	  <h2>Bitcoin only exists on the internet</h2>
+	  <p>Well, not really, but still...</p>
+	  <img src="images/casascius.jpg">
+	  <p class="fragment"><a href="https://blockchain.info">Verify a coin</a></p>
+	</section>
+
+	<section>
 	  <h2>The genesis block</h2>
 	  <ul>
 	    <li class="fragment">Block 0 or 1</li>
@@ -354,6 +367,7 @@
 	    <li class="fragment">Currently contains 233 000 blocks</li>
 	    <li class="fragment">Is over 7 GB in size and grows with ~25 MB/day</li>
 	    <li class="fragment">Represents more than 10^20 accumulated calculated hashes</li>
+	    <li class="fragment">This is the intrinsic value of bitcoins</li>
 	  </ul>
 	</section>
 
@@ -375,15 +389,35 @@
 	</section>
 
 	<section>
+	  <h2>Possible attacks against Bitcoin?</h2>
+	  <ul>
+	    <li class="fragment">Stop the flow of money to the exchanges</li>
+	    <li class="fragment">Regulate it to death</li>
+	    <li class="fragment">DDoS the mining pools or exchanges</li>
+	    <li class="fragment">Fork the blockchain repeatedly</li>
+	    <li class="fragment">Buy all Bitcoins and destroy them</li>
+	    <li class="fragment">Force volatility of value</li>
+	    <li class="fragment">Infiltrate the code base</li>
+	    <li class="fragment">Infiltrate the alert machinery</li>
+	    <li class="fragment">Ban it, but is Bitcoin a currency, an asset, a security, or...?</li>
+	  </ul>
+	</section>
+
+	<section>
 	  <h2><a href="https://en.bitcoin.it/wiki/Block_hashing_algorithm">Hashing/mining</a></h2>
 	  <ul>
+	    <li class="fragment">CPU ~4 MH/s</li>
+	    <li class="fragment">GPU ~800 MH/s</li>
+	    <li class="fragment"><a href="http://bitcoinfpga.com">FPGA ~200 MH/s</a></li>
+	    <li class="fragment"><a href="http://www.avalon-asics.com">ASIC ~270 MH/s </a></li>
 	    <li class="fragment"><a href="https://blockchain.info/pools">Pools</a></li>
-	    <li class="fragment"><a href="http://bitcoinfpga.com">FPGA miners</a></li>
-	    <li class="fragment"><a href="http://www.avalon-asics.com">ASIC miners</a></li>
 	    <li class="fragment">P2Pool</li>
 	  </ul>
-	  <p/>
-	  <img class="fragment" src="images/pools.png">
+	  </section>
+
+	<section>
+	  <h2>Releative pool sizes</h2>
+	  <img src="images/pools.png">
 	</section>
 
 	<section>
@@ -405,21 +439,6 @@
 	</section>
 
 	<section>
-	  <h2>Clients/Wallets</h2>
-	  <ul>
-	    <li class="fragment"><a href="http://bitcoin.org">Satoshi client (Windows, Linux, OSX)</a></li>
-	    <li class="fragment"><a href="http://multibit.org">MultiBit (Java)</a></li>
-	    <li class="fragment"><a href="https://www.instawallet.org">Instawallet</a></li>
-	    <li class="fragment">Bitcoin Wallet (for Android)</li>
-	    <li class="fragment">Bitcoin Spinner (for Android) using <a href="https://code.google.com/p/bccapi/">BCCAPI</a></li>
-	    <li class="fragment">Blockchain (for Android & iOS) <a href="https://code.google.com/p/bccapi/">BCCAPI</a></li>
-	    <li class="fragment"><a href="http://safeb.it">Safebit</a></li>
-	    <li class="fragment"><a href="http://bitcoinarmory.com">Armoury</a></li>
-	    <li class="fragment"><a href="https://strongcoin.com">StrongCoin</a></li>
-	  </ul>
-	</section>
-
-	<section>
 	  <h2>Four types of wallets</h2>
 	  <ul>
 	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Wallet">Nondeterministic wallets</a></li>
@@ -435,10 +454,7 @@
 	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Bitcoind">bitcoind</a></li>
 	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Bitcoin-qt">bitcoin-qt</a></li>
 	    <li class="fragment"><a href="https://code.google.com/p/bitcoinj/">bitcoinj</a></li>
-	    <li class="fragment"><a href="http://libbitcoin.org">libbitcoin</a></li>
-	    <li class="fragment"><a href="https://github.com/ceptacle/libcoin">libcoin</a> by Michael Gronager, PhD</li>
 	    <li class="fragment"><a href="http://bitcoinjs.org">bitcoinjs</a></li>
-	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Stratum">Stratum</a></li>
 	  </ul>
 	</section>
 
@@ -447,53 +463,113 @@
 	  <ul>
 	    <li class="fragment"><a href="https://blockexplorer.com">blockexplorer.com</a></li>
 	    <li class="fragment"><a href="https://blockchain.info">blockchain.info</a></li>
+	    <li class="fragment"><a href="http://bitcoincharts.com">bitcoincharts.com</a></li>
 	    <li class="fragment"><a href="http://bitcoinmonitor.com">bitcoinmonitor.com</a></li>
 	    <li class="fragment">Tumblers: <a href="http://bitcoinlaundry.com">bitcoinlaundry.com</a> and <a href="http://app.bitlaundry.com">bitlaundry.com</a></li>
 	  </ul>
 	</section>
+	
+	<section>
+	  <h2><a href="https://bitcointalk.org/index.php?topic=7500.0;all">Competition / Forks, dead or silly</a></h2>
+	  <ul>
+	    <li class="fragment">IxCoin</li>
+	    <li class="fragment">IoCoin</li>
+	    <li class="fragment">SolidCoin</li>
+	    <li class="fragment">DevCoin</li>
+	    <li class="fragment">ExpoCoin / KingCoin</li>
+	    <li class="fragment">BribeCoin / PimpCoin / PornCoin / ...</li>
+	  </ul>
+	</section>
+	
+	<section>
+	  <h2><a href="https://bitcointalk.org/index.php?topic=7500.0;all">Competition / Forks, good stuff</a></h2>
+	  <ul>
+	    <li class="fragment">NameCoin</li>
+	    <li class="fragment">FreiCoin (GeistGeld ?)</li>
+	    <li class="fragment"><a href="https://ripple.com">Ripple</a></li>
+	    <li class="fragment"><a href="http://spar.isi.jhu.edu/~mgreen/ZerocoinOakland.pdf">ZeroCoin</a></li>
+	    <li class="fragment"><a href="http://mintchipchallenge.com">MintChip</a></li>
+	  </ul>
+	  <br/><br/>
+	  <p class="fragment"><a href="http://bitcoin.stackexchange.com/questions/273/merged-mining-how-will-it-work">Merged mining</a></p>
+	</section>
 
+	<section>
+	  <h3>Bitcoins in the future?</h3>
+	  <ul>
+	    <li class="fragment">Bitcoin Oracles</li>
+	    <li class="fragment">Prediction markets</li>
+	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Agents">Bitcoin Agents</a></li>
+	    <li class="fragment"><a href="http://bitcoin.stackexchange.com/questions/2708/how-can-open-transactions-benefit-bitcoin">Open-Transactions</a></li>
+	    <li class="fragment"><a href="http://bitcoin.stackexchange.com/questions/5695/what-are-colored-coins">Colored coins</a></li>
+	  </ul>
+	</section>
+	
+	<section>
+
+	  <section>
+	    <h2>Bitcoin could possibly replace</h2>
+	    <ul>
+	      <li class="fragment">Fiat-money: the "Fed"</li>
+	      <li class="fragment">Storage and accounting of money: banks</li>
+	      <li class="fragment">Transfer of money: SWIFT, SEPA, Swish, Western Union, PayPal</li>
+	      <li class="fragment">Store of value: gold and silver</li>
+	      <li class="fragment">Creditcards</li>
+	      <li class="fragment">Cash: coins and banknotes</li>
+	    </ul>
+	  </section>
+
+	  <section>
+	    <h2><a href="https://en.wikipedia.org/wiki/Gresham%27s_law">Gresham's law</a></h2>
+	    <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+	      Bad money drives out good, if they exchange for the same price
+	    </blockquote>
+	  </section>
+
+	</section>
+	
 	<section>
 	  <h2><a href="https://en.bitcoin.it/wiki/Contracts">Bitcoin contracts</a> (advanced)</h2>
 	  <ul>
-	    <li class="fragment">Lock time --> transactions can be replaced until a set block is created</li>
-<li class="fragment">I agree to put my money in, if everyone puts their money in and the outputs are this</li>
-<li class="fragment">I agree to put my money in, as long as everyone puts their money in, but I don't care what's done with the output</li>
-<li class="fragment">I agree, as long as my output is what I want; I don't care about the others</li>
-<li class="fragment">An output can require two signatures to be spent</li>
-</ul>
-</section>
-
-<section>
-  <h2>Contract examples</h2>
-  <ul>
-    <li class="fragment">Providing a deposit</li>
-    <li class="fragment">Escrow and dispute mediation</li>
-    <li class="fragment">Assurance contracts</li>
-    <li class="fragment">Using external state - Bitcoin Oracles</li>
-    <li class="fragment">Trading across chains</li>
-    <li class="fragment">Smart property</li>
-    <li class="fragment">Rapidly-adjusted (micro)payments to a pre-determined party</li>
-  </ul>
-</section>
-
-<section>
-  <h2>More information</h2>
-  <ul>
-    <li class="fragment"><a href="http://bitcoin.stackexchange.com">Stackexchange</a></li>
-    <li class="fragment"><a href="http://bitcoinstatus.rowit.co.uk">Bitcoin statistics / charts</a></li>
-    <li class="fragment"><a href="http://bitcoin.stackexchange.com/questions/2708/how-can-open-transactions-benefit-bitcoin">OpenTransactions</a></li>
-    <li class="fragment"><a href="http://vimeo.com/27177893">Very good presentation about how Bitcoin works</a> with <a href="https://people.mozilla.com/~bwarner/bitcoin/">slides</a></li>
-    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals">Bitcoin Improvement Proposals, BIP</a></li>
-  </ul>
-</section>
-
-<section>
-  <h1>THE END</h1>
-  <p>mats.henricson@crisp.se & zac@cyberzac.se</p>
-  <img src="images/end.jpg">
-</section>
-
-</div>
+	    <li class="fragment">Lock time --&gt; transactions can be replaced until a set block is created</li>
+	    <li class="fragment">I agree to put my money in, if everyone puts their money in and the outputs are this</li>
+	    <li class="fragment">I agree to put my money in, as long as everyone puts their money in, but I don't care what's done with the output</li>
+	    <li class="fragment">I agree, as long as my output is what I want; I don't care about the others</li>
+	    <li class="fragment">An output can require two signatures to be spent</li>
+	  </ul>
+	</section>
+	
+	<section>
+	  <h2>Contract examples</h2>
+	  <ul>
+	    <li class="fragment">Providing a deposit</li>
+	    <li class="fragment">Escrow and dispute mediation</li>
+	    <li class="fragment">Assurance contracts</li>
+	    <li class="fragment">Using external state - Bitcoin Oracles</li>
+	    <li class="fragment">Trading across chains</li>
+	    <li class="fragment">Smart property</li>
+	    <li class="fragment">Rapidly-adjusted (micro)payments to a pre-determined party</li>
+	  </ul>
+	</section>
+	
+	<section>
+	  <h2>More information</h2>
+	  <ul>
+	    <li class="fragment"><a href="http://bitcoin.stackexchange.com">Stackexchange</a></li>
+	    <li class="fragment"><a href="http://bitcoinstatus.rowit.co.uk">Bitcoin statistics / charts</a></li>
+	    <li class="fragment"><a href="http://bitcoin.stackexchange.com/questions/2708/how-can-open-transactions-benefit-bitcoin">OpenTransactions</a></li>
+	    <li class="fragment"><a href="http://vimeo.com/27177893">Very good presentation about how Bitcoin works</a> with <a href="https://people.mozilla.com/~bwarner/bitcoin/">slides</a></li>
+	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Bitcoin_Improvement_Proposals">Bitcoin Improvement Proposals, BIP</a></li>
+	  </ul>
+	</section>
+	
+	<section>
+	  <h1>THE END</h1>
+	  <p>mats.henricson@crisp.se & martin@kodmagi.se</p>
+	  <img src="images/end.jpg">
+	</section>
+	
+      </div>
 
 <!-- The navigational controls UI -->
 <aside class="controls">
