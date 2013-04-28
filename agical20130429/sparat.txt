@@ -9,12 +9,10 @@
 				</section>
 
 	<section>
-	  <h3>How do you get Bitcoins?</h3>
-	  <ul>
-			<li class="fragment">Mine them</li>
-			<li class="fragment">Earn them</li>
-	    <li class="fragment">Buy and sell them, most often at <a href="https://mtgox.com">MtGox</a></li>
-	    <li class="fragment">You can also buy and sell Bitcoins in <a href="https://kapiton.se">Sweden</a></li>
-	  </ul>
+	  <h2><a href="https://en.wikipedia.org/wiki/Gresham%27s_law">Gresham's law</a></h2>
+	  <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+	    Bad money drives out good (if they exchange for the same price)
+	  </blockquote>
 	</section>
+
 
