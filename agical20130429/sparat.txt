@@ -1,18 +1,90 @@
-				<section>
-					<h2>Please install a wallet</h2>
-					<ul>
-						<li class="fragment">Satoshi client at bitcoin.org</li>
-						<li class="fragment">MultiBit at multibit.org</li>
-						<li class="fragment">Blockchain or Androind Wallet on Android</li>
-						<li class="fragment">Blockchain or Coinbase on iPhone</li>
-					</ul>
-				</section>
-
 	<section>
 	  <h2><a href="https://en.wikipedia.org/wiki/Gresham%27s_law">Gresham's law</a></h2>
 	  <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
 	    Bad money drives out good (if they exchange for the same price)
 	  </blockquote>
+	</section>
+
+	<section>
+	  <h2>Bitcoin only exists on the internet</h2>
+	  <p>Well, not really, but still...</p>
+	  <img src="images/casascius.jpg">
+	</section>
+
+	<section>
+	  <h3>Bitcoins in the future? (1/2)</h3>
+	  <ul>
+	    <li class="fragment">Bitcoin-only Credit Default Swap + options and insurance</li>
+	    <li class="fragment">Bitcoin Oracles</li>
+	    <li class="fragment">Smart property</li>
+	    <li class="fragment">Prediction markets</li>
+	    <li class="fragment">Assasination markets</li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h3>Bitcoins in the future? (2/2)</h3>
+	  <ul>
+	    <li class="fragment">Microtransactions</li>
+	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Agents">Bitcoin Agents</a></li>
+	    <li class="fragment">Offline transactions</li>
+	    <li class="fragment"><a href="http://bitcoin.stackexchange.com/questions/2708/how-can-open-transactions-benefit-bitcoin">Open-Transactions</a></li>
+	    <li class="fragment"><a href="http://bitcoin.stackexchange.com/questions/5695/what-are-colored-coins">Colored coins</a></li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h2>Bitcoin could possibly replace</h2>
+	  <ul>
+	    <li class="fragment">Creation of money (the "Fed")</li>
+	    <li class="fragment">Storage and accounting of money (banks)</li>
+	    <li class="fragment">Transaction of money (SWIFT, SEPA, Western Union, PayPal)</li>
+	    <li class="fragment">Gold and Silver</li>
+	    <li class="fragment">Cash (coins and banknotes)</li>
+	    <li class="fragment">Stocks</li>
+	    <li class="fragment">Bonds</li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h2><a href="https://bitcointalk.org/index.php?topic=7500.0;all">Competition / Forks, dead or silly</a></h2>
+	  <ul>
+	    <li class="fragment">IxCoin</li>
+	    <li class="fragment">IoCoin</li>
+	    <li class="fragment">SolidCoin</li>
+	    <li class="fragment">DevCoin</li>
+	    <li class="fragment">ExpoCoin / KingCoin</li>
+	    <li class="fragment">BribeCoin / PimpCoin / PornCoin / ...</li>
+	  </ul>
+	</section>
+	
+	<section>
+	  <h2><a href="https://bitcointalk.org/index.php?topic=7500.0;all">Competition / Forks, good stuff</a></h2>
+	  <ul>
+	    <li class="fragment">NameCoin</li>
+	    <li class="fragment">FreiCoin (GeistGeld ?)</li>
+	    <li class="fragment"><a href="https://ripple.com">Ripple</a></li>
+	    <li class="fragment"><a href="http://spar.isi.jhu.edu/~mgreen/ZerocoinOakland.pdf">ZeroCoin</a></li>
+	    <li class="fragment"><a href="http://mintchipchallenge.com">MintChip</a></li>
+	  </ul>
+		<br/>
+		<br/>
+	  <p class="fragment"><a href="http://bitcoin.stackexchange.com/questions/273/merged-mining-how-will-it-work">Merged mining</a></p>
+	</section>
+	
+	<section>
+	  <h2>Possible attacks against Bitcoin?</h2>
+	  <ul>
+	    <li class="fragment">Stop the flow of money to the exchanges</li>
+	    <li class="fragment">Regulate it to death</li>
+	    <li class="fragment">DDoS the mining pools or exchanges</li>
+	    <li class="fragment">Fork the blockchain repeatedly</li>
+	    <li class="fragment">Buy all Bitcoins and destroy them</li>
+	    <li class="fragment">Force volatility of value</li>
+	    <li class="fragment">Infiltrate the code base</li>
+	    <li class="fragment">Infiltrate the alert machinery</li>
+	    <li class="fragment">Ban it, but is Bitcoin a currency, an asset, a security, or...?</li>
+	  </ul>
 	</section>
 
 
