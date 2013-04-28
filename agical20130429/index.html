@@ -368,13 +368,11 @@
 
 	<section>
 	  <h2>Blocks - Mining output</h2>
-	  <p>Contains a header + a list of one or more (typically 100-700) transactions</p>
-	  <p>The block header contains:</p>
 	  <ul>
-	    <li class="fragment">A hash of the previous block header</li>
-	    <li class="fragment">A hash of the list of transactions (will be unique for each miner)</li>
-	    <li class="fragment">A coinbase transaction, which rewards the miner with 25 Bitcoins</li>
-	    <li class="fragment">A nonce, incremented after each failed hash</li>
+	    <li class="fragment">Contains a header + a list of one or more (typically 100-700) transactions</li>
+	    <li class="fragment">The hash of the blockheader must be below the current target</li>
+	    <li class="fragment">The miners tries to generate a correct block</li>
+	    <li class="fragment">The miners is rewarded 25 BTC for block</li>
 	  </ul>
 	</section>
 
@@ -385,8 +383,8 @@
 	    <tr><td>hashPrevBlock</td><td>SHA256 of previous blockheader</td></tr>
 	    <tr><td>hashMerkleRoot</td><td>SHA256 of the transactions in the block</td></tr>
 	    <tr><td>Time</td><td>Unix time</td></tr>
-	    <tr><td>Bits</td><td>Current target</td></tr>
-	    <tr><td>Nonce</td><td>32/bit number</td></tr>
+	    <tr><td>Bits</td><td>Current <a href="https://en.bitcoin.it/wiki/Target">target</a></td></tr>
+	    <tr><td>Nonce</td><td>32-bit number</td></tr>
 	  </table>
 	</section>
 
