@@ -61,48 +61,47 @@
 	</section>
 
 	<section>
-	  <h2>Bitcoin is money on the net</h2>
+	  <h2>Bitcoin is money</h2>
 	  <ul>
-	    <li class="fragment">Fast (a few seconds to everywhere on the planet)</li>
+	    <li class="fragment">Medium of exchange: traded for other stuff</li>
+	    <li class="fragment">Unit of account: fungible, all bitcoins are the same</li>
+	    <li class="fragment">Unit of account: divisible down to 100 Millionth, a 'Satoshi'</li>
+	    <li class="fragment">Store of value: Bitcoins are scarce, max 21 million (currently ~12 million)</li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h2>Bitcoin is money on the net</h2>
+	  <h3>Transactions are</h3>
+	  <ul>
+	    <li class="fragment">Fast, a few seconds</li>
 	    <li class="fragment">Cheap, currently about <a hrefr="https://en.bitcoin.it/wiki/Transaction_fee">0.0001 Bitcoin/~10 &ouml;re</a></li>
 	    <li class="fragment">Unstopable</li>
 	    <li class="fragment">Almost anonymous</li>
 	    <li class="fragment">Non-reversible</li>
-	    <li class="fragment">Divisible down to 0.00000001 Bitcoins (a 'Satoshi')</li>
-	    <li class="fragment">All bitcoins are the same</li>
-	    <li class="fragment">Bitcoins are scarce, max 21 million (currently ~11.6 million)</li>
 	  </ul>
 	</section>
 
 	<section>
-	  <h3>Where is it used: "Illegal"</h3>
+	  <h2>Bitcoin is a protocol</h2>
+	  <ul>
+	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Protocol_specification">Open source</a></li>
+	    <li class="fragment">Peer to peer</li>
+	    <li class="fragment">Programmable</li>
+	  </ul>
+	</section>
+
+	<section>
+	  <h3>Where is it used</h3>
 	  <ul>
 	    <li class="fragment"><a href="http://betsofbitco.in">Betting (of course)</a></li>
-	    <li class="fragment">Buy porn (of course), but can't find any right now</li>
-	    <li class="fragment"><a href="http://ianxz6zefk72ulzz.onion">Buy drugs (of course)</a></li>
 	    <li class="fragment"><a href="http://satoshidice.com">Dice rolling</a>, with guaranteed honesty</li>
 	    <li class="fragment"><a href="http://www.forbes.com/sites/jonmatonis/2012/03/19/could-bitcoin-become-the-currency-of-system-d/">Bitcoin for Systeme D (l'economie de la d&eacute;brouillardise)?</a></li>
-	  </ul>
-	</section>
-
-	<section>
-	  <h3>Where is it used: "Internet"</h3>
-	  <ul>
-	    <li class="fragment">Open source money</li>
-	    <li class="fragment">Money with an API</li>
 	    <li class="fragment"><a href="http://coinworker.com">Rewards for work</a></li>
 	    <li class="fragment">Buy network assets (domain names, cloud storage, CPU, hosting)</li>
 	    <li class="fragment"><a href="https://www.okcupid.com">Pay for online dating account</a></li>
-	  </ul>
-	</section>
-
-	<section>
-	  <h3>Where is it used: "Alternative"</h3>
-	  <ul>
 	    <li class="fragment">Anonymous donations (Anonymous, Occupy movement, prometheusfusionperfection.com, PirateBay)</li>
 	    <li class="fragment">Unstoppable donations (WikiLeaks)</li>
-	    <li class="fragment">Transactions across national borders</li>
-	    <li class="fragment">If you hate the Fed and/or banks</li>
 	    <li class="fragment"><a href="https://www.bitcoinstore.com">Buy just about anything</a></li>
 	  </ul>
 	</section>
@@ -111,25 +110,26 @@
 	  <h2>How are they created?</h2>
 	  <ul>
 	    <li>25 new Bitcoins are created on average each 10 minutes, in a process called "mining"</li>
-	    <li class="fragment">Mining is important, since it was the way Bitcoins were distributed at the start</li>
+	    <li class="fragment">Mining is the way new Bitcoins are distributed.</li>
+	    <li class="fragment">Mining validates transactions</li>
 	    <li class="fragment">Anyone can mine!</li>
-	    <li class="fragment">Without mining, Bitcoin would be very hard to bootstrap</li>
 	  </ul>
 	</section>
 
 	<section>
 	  <h2>How do you get Bitcoins?</h2>
 	  <ul>
-			<li class="fragment">Mine them</li>
-			<li class="fragment">Earn them</li>
+	    <li class="fragment">Mine them</li>
+	    <li class="fragment">Earn them</li>
 	    <li class="fragment">Buy and sell them, most often at MtGox or BitStamp</li>
-	    <li class="fragment">You can also buy and sell Bitcoins in <a href="https://kapiton.se">Sweden</a></li>
+	    <li class="fragment">In Sweden at <a href="http://btcx.se">Btcx</a>, <a href="https://kapiton.se">Kaption</a> and <a href="https://safello.com/sv/index.xhtml">Safello</a></li>
 	  </ul>
 	</section>
 
 	<section>
-	  <h2>Satoshi Nakamoto</h2>
+	  <h2>Who created this?</h2>
 	  <ul>
+	    <li class="fragment">Satoshi Nakamoto</li>
 	    <li class="fragment">Satoshi means "wisdom" or "reason"</li>
 	    <li class="fragment">No references to him outside Bitcoin or p2p foundation</li>
 	    <li class="fragment">Created an anonymous persona, then (starting in 2007) wrote 31 000 lines of complex C++ code...</li>
@@ -160,7 +160,7 @@
 	    <li class="fragment">O0Il are never used</li>
 	    <li class="fragment">Contains checksums, 2^-32 risk of misstyped address</li>
 	    <li class="fragment">Is the 160-bit hash of the public part of a key pair</li>
-	    <li class="fragment">The address, public and private key are kept in the wallet</li>
+	    <li class="fragment">The address, public and private key are kept in a wallet</li>
 	  </ul>
 	</section>
 
@@ -168,16 +168,11 @@
 	  <h2><a href="https://code.google.com/p/bitcoinj/wiki/WorkingWithTransactions">Transactions</a></h2>
 	  <ul>
 	    <li class="fragment">A collection of inputs and outputs</li>
-	    <li class="fragment">The private key is needed to sign a transaction with a Bitcoin input address</li>
+	    <li class="fragment">The corresponding private key is needed to sign a transaction with a Bitcoin input address</li>
 	    <li class="fragment">The inputs are outputs from a previous transaction</li>
 	    <li class="fragment">An output contains a value and a script, which can be just an address, or a <a href="https://en.bitcoin.it/wiki/Script">program</a>!</li>
 	    <li class="fragment">Inputs = outputs + fee</li>
-	    <li class="fragment">If you want to send less than the inputs, then your client/wallet will send back the change to you in an output</li>
 	  </ul>
-	</section>
-
-	<section>
-	  <img src="images/transaction.png">
 	</section>
 
 	<section>
@@ -190,12 +185,25 @@
 	</section>
 
 	<section>
+	  <img src="images/transaction.png">
+	  <h2 class="fragment">What's wrong with the picture?</h2>
+	</section>
+
+	<section>
+	  <h2>Solving double spending</h2>
+	  <ul>
+	    <li class="fragment">Timestamp</li>
+	    <li class="fragment">Distributed database</li>
+	    <li class="fragment">This is mining</li>
+	</section>
+
+	<section>
 	  <h2>Blocks - Mining output</h2>
 	  <ul>
-	    <li class="fragment">Contains a header + a list of one or more (typically 100-700) transactions</li>
-	    <li class="fragment">The hash of the blockheader must be below the current target</li>
-	    <li class="fragment">The miners tries to generate a correct block</li>
-	    <li class="fragment">The miners are currently rewarded 25 BTC for a block accepted by the p2p network</li>
+	    <li class="fragment">Contains a header + a list of transactions</li>
+	    <li class="fragment">The SHA256 <b>hash</b> of the blockheader must be below the current <a href="https://en.bitcoin.it/wiki/Target">target</a></li>
+	    <li class="fragment">The miners tries to generate a correct block, by trial and error</li>
+	    <li class="fragment">The miners are currently rewarded 25 BTC + fees per block</li>
 	  </ul>
 	</section>
 
@@ -204,13 +212,25 @@
 	</section>
 
 	<section>
-	  <img src="images/blockchain.png">
+	  <h2>Difficulty</h2>
+	  <ul>
+	    <li class="fragment">difficulty = maximum_target / current_target</li>
+	    <li class="fragment">maximum_target is 2^256</li>
+	    <li class="fragment">Current Network Hashrate: <a href="http://bitcoinwatch.com">1.5 PHash/s</a></li>
+	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Difficulty">Adjustment every 2016 blocks, about 2 weeks</a></li>
+	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Difficulty">Adjusted to achieve 6 block per hour</a></li>
+	  </ul>
+	</section>
+
+	<section>
+	  <img src="images/speed-ever.png">
 	</section>
 
 	<section>
 	  <h2>The genesis block</h2>
 	  <ul>
 	    <li class="fragment">Block 0 or 1</li>
+	    <li class="fragment">In <a href="https://blockchain.info/block/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f">Blockchain</a></li>
 	    <li class="fragment">In <a href="https://blockexplorer.com/b/0">Block Explorer</a></li>
 	    <li class="fragment">In <a href="https://en.bitcoin.it/wiki/Genesis_block">Bitcoin wiki</a></li>
 	  </ul>
@@ -221,23 +241,15 @@
 	</section>
 
 	<section>
-	  <h2>The block chain</h2>
+	  <h2>The Blockchain</h2>
 	  <ul>
-	    <li class="fragment">Currently contains 260 000+ blocks</li>
+	    <li class="fragment">Currently contains 264 000+ blocks</li>
 	    <li class="fragment">Is over 10 GB in size and grows with ~25 MB/day</li>
 	  </ul>
 	</section>
 
 	<section>
-	  <h2>Difficulty</h2>
-	  <ul>
-	    <li class="fragment">Current Network Hashrate: <a href="http://bitcoinwatch.com">1 PHash/s</a></li>
-	    <li class="fragment"><a href="https://en.bitcoin.it/wiki/Difficulty">Adjustment every 2016 blocks, about 2 weeks</a></li>
-	  </ul>
-	</section>
-
-	<section>
-	  <img src="images/speed-ever.png">
+	  <img src="images/blockchain.png">
 	</section>
 
 	<section>
